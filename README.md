@@ -6,7 +6,9 @@ It includes my name, a short bio, hobbies, education info, and some fun cat imag
 I used basic HTML elements like headings, paragraphs, lists, and images — everything a beginner needs to get comfortable building web pages.
 
 ## 🚀 How to run this project
--Download or clone the repository.
+-Click the green <> Code button.
+-Click Download ZIP.
+-Save the ZIP file and extract it to use the files.
 -Just open the `index.html` file in any web browser.
 
 ##External Links Used
