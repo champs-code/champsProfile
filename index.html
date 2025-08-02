@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Champs Profile</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+      background-image: url('bg.jfif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    .profile-card {
+      max-width: 900px;
+      margin: auto;
+      background-color: #edf0f6;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .profile-card:hover {
+      transform: scale(1.01);
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+    }
+
+    .top-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 30px;
+    }
+
+    .profile-pic {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 6px solid #18779a;
+    }
+
+    .right-info {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .about-box {
+      background-color: #929da8;
+      color: white;
+      padding: 15px;
+      border-radius: 12px;
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .basic-info h1 {
+      color: #92c1e4;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .age {
+      font-weight: bold;
+      color: #4c86af;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    .section-title {
+      font-weight: 600;
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #404e76;
+    }
+
+    .info-box,
+    .hobby-box,
+    .more-box {
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .info-box {
+      background-color: #f2fff1;
+      border-left: 5px solid #4c78af;
+    }
+
+    .hobby-box {
+      background-color: #a4c4d1;
+      border-left: 5px solid #423f61;
+    }
+
+    .hobby-box ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .quote-box {
+      background-color: #f8fcaf;
+      color: #4e330a;
+      padding: 15px;
+      border-radius: 12px;
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    .more-box {
+      background-color: #e2ffd6;
+      line-height: 1.8;
+    }
+
+    .more-box a {
+      color: #0d3c79;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .more-box a:hover {
+      text-decoration: underline;
+    }
+
+    .cat-section {
+      margin-top: 30px;
+    }
+
+    .cat-section h3 {
+      margin-bottom: 10px;
+      color: #12043f;
+    }
+
+    .cat-avatars img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-right: 10px;
+      border: 3px solid #ccc;
+      object-fit: cover;
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .cat-avatars img:hover {
+      transform: scale(1.1);
+      border-color: #18779a;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="profile-card">
+    <div class="top-section">
+      <img src="pfp.jfif" alt="Champs" class="profile-pic" />
+      <div class="right-info">
+        <div class="about-box">
+          I’m Champi Brahma, also known as Champs - a passionate student with a strong interest in coding and technology.
+        </div>
+        <div class="basic-info">
+          <h1>About Champs!</h1>
+          <div class="age">Age: 19 years</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">EDUCATION</div>
+      <div class="info-box">
+        🎓 Currently pursuing B.Tech in CSE at Central Institute of Technology, Kokrajhar - 5th semester and counting!
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Hobbies</div>
+      <div class="hobby-box">
+        <ul>
+          <li>Crochet</li>
+          <li>Singing</li>
+          <li>Reading books</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="quote-box">
+      When opportunity knocks, don’t just answer - build the door.
+    </div>
+
+    <div class="section">
+      <div class="section-title">Contacts</div>
+      <div class="more-box">
+        📧 Email: <a href="mailto:u23cse1034@cit.ac.in">u23cse1034@cit.ac.in</a><br />
+        🐙 GitHub: <a href="https://github.com/champs-code" target="_blank">github.com/champs-code</a>
+      </div>
+    </div>
+
+    <div class="cat-section">
+      <h3>I love cats!</h3>
+      <div class="cat-avatars">
+        <img src="cat1.jfif" alt="Cat 1" />
+        <img src="cat2.jfif" alt="Cat 2" />
+        <img src="cat3.jfif" alt="Cat 3" />
+        <img src="cat4.jfif" alt="Cat 4" />
+        <img src="cat5.jfif" alt="Cat 5" />
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
