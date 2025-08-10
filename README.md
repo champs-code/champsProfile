@@ -1,11 +1,11 @@
-# 🧪 Experiment 1: Personal Profile Page
+#  Experiment 1: Personal Profile Page
 
-## 📄 Description
+## Description
 This is a simple personal profile page built with HTML and CSS.  
 It includes my name, a short bio, hobbies, education info, and some fun cat images 🐱.
 I used basic HTML elements like headings, paragraphs, lists, and images — everything a beginner needs to get comfortable building web pages.
 
-## 🚀 How to run this project
+###  How to run this project
 -Click the green <> Code button.
 -Click Download ZIP.
 -Save the ZIP file and extract it to use the files.
